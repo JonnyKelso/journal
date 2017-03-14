@@ -1,4 +1,4 @@
-#!C:\Python34\python.exe -u
+#!/usr/bin/python3
 
 import argparse
 import time
