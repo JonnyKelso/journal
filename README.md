@@ -1,5 +1,6 @@
 # journal
 A simple command line journal, written in Python. Add, delete and list timestamped journal entires
+Creates a journal.csv file in current directory.
 
 ## Run
 ```
