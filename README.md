@@ -30,4 +30,5 @@ $>python3 journal.py -a "this is a new message with a tag #urgent #work"
 
 ## Still to do:
 - finish off the -o output as markdown for wikis, perhaps output JSON too.
+- Store location of journal file and allow writing to journal file from wherever journal is run from
 
