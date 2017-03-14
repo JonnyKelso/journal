@@ -1,7 +1,7 @@
 # journal
 A simple command line journal, written in Python. Add, delete and list timestamped journal entires
 
-Run:
+## Run
 ```
 $ python3 journal.py -h
 usage: journal.py [-h] [-l] [-a ADD] [-b] [-d DELETE] [-o] [-n NUMBER]
@@ -14,7 +14,7 @@ optional arguments:
   -b, --backup          Backup journal file
   -d DELETE, --delete DELETE
                         Delete a journal entry
-  -o, --output          Output journal in wiki format (nt implemented yet)
+  -o, --output          Output journal in wiki format (not implemented yet)
   -n NUMBER, --number NUMBER
                         List the last n entries
   -t TAG, --tag TAG     List entries with the suplied tag
@@ -25,4 +25,7 @@ Tags can be supplied anywhere in the message string and are identified by '#'
 ```
 $>python3 journal.py -a "this is a new message with a tag #urgent #work"
 ```
+
+## Still to do:
+- finish off the -o output as markdown for wikis, perhaps output JSON too.
 
